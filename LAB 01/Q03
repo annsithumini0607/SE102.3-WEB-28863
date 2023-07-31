@@ -1,0 +1,12 @@
+<html>
+<head>
+    <title>Q03</title>
+    </head>
+<body>
+    <form name="form" method="post">
+    Name:<input type="text" name="na"><br>
+        Index Number:
+        <input  type="text" name="pwd"><br>
+    </form>
+    </body>
+</html>
