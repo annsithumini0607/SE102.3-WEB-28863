@@ -1,0 +1,41 @@
+<html>
+<head>
+<title>
+hello
+</title>
+<script>
+    function x()
+    {
+        document.bgColor="red";
+       
+    }  
+    function y()
+    {
+        document.bgColor="grey";
+       
+    }  
+function z()
+    {
+        document.bgColor="blue";
+       
+    }  
+function a()
+    {
+        document.bgColor="white";
+       
+    }  
+ </script>
+</head>
+
+<body>
+  <form name="log">
+    
+    <input type="button" name="cl" value="click" onmouseover="x()" onmouseout="a()">
+    
+<input type="button" name="cl" value="click" onmouseover="y()" onmouseout="a()">
+    
+<input type="button" name="cl" value="click" onmouseover="z()" onmouseout="a()">
+
+    </form>
+</body>
+</html>
