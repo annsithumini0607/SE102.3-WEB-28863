@@ -1,0 +1,14 @@
+<html>
+<body>
+<h2>Tute</h2>
+<?php
+$a=6;
+$b=4;
+
+echo("Sum:".($a+$b)."<br>");
+echo("Substraction:".($a-$b)."<br>");
+echo("devision:".($a/$b)."<br>");
+echo("Multiplication:".($a*$b)."<br>");  
+?>
+</body>
+</html>    
