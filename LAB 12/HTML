@@ -1,0 +1,79 @@
+<html>
+<head>
+<title> NSBM</title>
+</head>
+<body>
+<h3><center>aregistration Form</center></h3>
+
+<form name="g" method="post" action="regi.php">
+<table border="0px" align="center">
+<tr>
+<td>
+	First Name:
+</td><td>
+	<input type="text" name="fn">
+		<br>
+</td>
+<tr>
+<td>
+Last Name:
+</td>
+<td>
+	<input type="text" name="ln">
+		</td><br></tr>
+<tr><td>
+User Name:
+</td>
+<td>
+	<input type="text" name="un">
+		<br></td>
+	</tr>
+<tr>
+<td>
+password:
+</td>
+<td>
+	<input type="password" name="pwd">
+		<br></td>
+</tr>
+<tr><td>
+gender:
+</td><td>
+	<input type="radio" name="gen" value="f">female
+	<input type="radio" name="gen" value="M">male
+		<br></td></tr>
+<tr>
+<td>
+Academic year:
+</td>
+<td>
+<select name="chose a year">
+		<option value="F"> First year</option> 
+		<option value="	S"> Second year</option> 
+		
+	</select>
+</td>
+</tr>
+<tr>
+<td>
+Email:
+</td>
+<td>
+<input type="email" name="e-mail">
+		<br>
+</td>
+</tr>
+<tr>
+<td>
+Phone Number:
+</td>
+<td><input type="text" name="number">
+		<br>
+</td>
+	</tr><tr><td><input type="submit" name="log" value="SUBMIT "></td></tr></table>
+	
+</form>
+
+		
+</body>
+</html>
