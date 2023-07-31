@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>
+hello
+</title>
+</head>
+<body>
+<button onclick="showAlert()" >Alert</button>
+<script>
+function showAlert()
+{
+window.alert("this is an alert.");
+}
+</script>
+</body>
+</html>
